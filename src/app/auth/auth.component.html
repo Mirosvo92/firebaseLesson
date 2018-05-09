@@ -1,0 +1,9 @@
+<div>
+  <button (click)="authService.facebookSignIn()" >Facebook</button>
+</div>
+
+<div>
+  <input type="email" placeholder="email" #email>
+  <input type="password" placeholder="password" #password>
+  <button (click)="authService.emailSignIn()">email</button>
+</div>
